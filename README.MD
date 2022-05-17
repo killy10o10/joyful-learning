@@ -1,9 +1,5 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio Project
-
-
-
 ## Live Demo
 
 
