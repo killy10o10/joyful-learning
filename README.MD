@@ -36,6 +36,8 @@ Contributions, issues, and feature requests are welcome!
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
+## Image Credits
+Photo by cottonbro from Pexels
 
 - Hat tip to anyone who's code/resource was used
 - Inspiration
