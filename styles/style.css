@@ -116,13 +116,15 @@ img {
   background: white;
   padding: 20px;
   margin-top: 40px;
+  margin-bottom: 40px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 20px;
 }
 
-#teacher-section-intro {
+.section-intro {
   margin-bottom: 30px;
   border-bottom: 3px solid #ec5242;
 }
@@ -156,4 +158,36 @@ img {
 .teacher-description {
   font-size: 12px;
   margin-top: 10px;
+}
+
+#view-more {
+  font-size: 18px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border: 1px solid #d3d3d3;
+  background-color: #fafafa;
+  border-radius: 4px;
+  gap: 5px;
+}
+
+/* Sponsors Section */
+#sponsors {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #272a31;
+  color: #8d8d8d;
+}
+
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 20px;/* align-items: center; */
 }
