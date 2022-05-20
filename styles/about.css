@@ -4,6 +4,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  list-style: none;
 }
 
 body {
@@ -20,8 +21,29 @@ header {
   top: 0;
 }
 
+.mobile-nav {
+  padding: 20px;
+}
+
 .desktop-nav {
   display: none;
+}
+
+.desktop-nav.show {
+  display: block;
+  background: white;
+  width: 100%;
+  text-align: center;
+  padding-top: 40px;
+  padding-left: 20px;
+  position: absolute;
+  top: 0;
+  height: 90vh;
+  box-shadow: 0 48px 48px rgb(37 47 137 / 8%);
+  left: 0;
+  border-radius: 0 0 50px 50px;
+  font-size: 20px;
+  z-index: -1;
 }
 
 .desktop-nav-2 {
@@ -212,13 +234,24 @@ img {
 
   .desktop-nav {
     display: flex;
-    justify-content: flex-end;
-    padding: 20px 170px 20px;
+    justify-content: space-between;
+    padding-right: 170px;
+  }
+
+  .nav-logo {
+    display: inline;
+    width: 120px;
+    height: 120px;
+    background-image: url('../images/school-logo.png');
+    background-position: center;
+    background-size: contain;
+    margin-top: -15px;
   }
 
   .flex-list {
     display: flex;
-    list-style: none;
+    justify-content: center;
+    align-items: center;
     gap: 20px;
   }
 
@@ -278,6 +311,10 @@ img {
   /* ABOUT SECTION */
 
   #about-heading {
+    font-size: 35px;
+  }
+
+  .testimonials-heading {
     font-size: 35px;
   }
 
