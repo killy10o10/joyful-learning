@@ -133,6 +133,7 @@ img {
   padding: 20px;
   background-color: #ec5242;
   font-weight: bold;
+  border: none;
   border-radius: 4px;
 }
 
