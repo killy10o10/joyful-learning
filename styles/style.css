@@ -19,6 +19,7 @@ header {
   position: fixed;
   width: 100%;
   top: 0;
+  z-index: 1;
 }
 
 h1,
@@ -87,6 +88,7 @@ img {
   justify-content: center;
   align-items: center;
   gap: 10px;
+  position: relative;
 }
 
 #stats-heading {
@@ -118,7 +120,6 @@ img {
   color: white;
   padding: 20px;
   background-color: #ec5242;
-  border: none;
   font-weight: bold;
 }
 
@@ -177,7 +178,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  width: 200px;
   border: 1px solid #d3d3d3;
   background-color: #fafafa;
   border-radius: 4px;
@@ -194,7 +195,6 @@ img {
   background-color: #272a31;
   color: #8d8d8d;
 }
-
 
 /* Footer */
 footer {
