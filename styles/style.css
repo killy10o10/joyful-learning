@@ -22,6 +22,10 @@ header {
   z-index: 1;
 }
 
+.desktop-nav {
+  display: none;
+}
+
 h1,
 h2,
 h3,
@@ -44,7 +48,7 @@ img {
 /* HEADLINE SECTION */
 
 #headline-section {
-  margin: 100px 20px 20px;
+  padding: 100px 20px 20px;
 }
 
 #headline-section::after {
@@ -60,9 +64,16 @@ img {
   z-index: -1;
 }
 
-#intro-heading {
+.intro-heading {
   font-size: 35px;
-  color: #ec5242;
+
+  /* color: #ec5242; */
+
+  background-image: linear-gradient(to bottom right, rgba(236, 82, 66, 1) 20%, rgba(236, 82, 66, 0.3) 50%), url('../images/teacher-kids.jpg');
+  background-repeat: repeat;
+  background-size: contain;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 #intro-text {
@@ -89,6 +100,11 @@ img {
   align-items: center;
   gap: 10px;
   position: relative;
+}
+
+#stats-grid {
+  display: grid;
+  gap: 10px;
 }
 
 #stats-heading {
@@ -141,12 +157,18 @@ img {
   border-bottom: 3px solid #ec5242;
 }
 
+#teacher-grid {
+  display: grid;
+  gap: 20px;
+}
+
 .teacher-container {
   display: grid;
   justify-content: center;
   align-items: center;
   grid-template-columns: 40% 50%;
   gap: 20px;
+  max-width: 370px;
 }
 
 .teacher-image {
@@ -196,9 +218,102 @@ img {
   color: #8d8d8d;
 }
 
+#sponsors-container {
+  /* display:grid;
+  grid-template-columns: repeat(3, auto); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+#sponsors-container * {
+  width: 20%;
+  filter: grayscale(100%) contrast(30%);
+  transition: filter 1s 1ms;
+  margin: 3px 5px;
+}
+
+#sponsors-container *:hover {
+  filter: grayscale(0%) contrast(100%);
+}
+
 /* Footer */
 footer {
   display: flex;
   justify-content: center;
   padding: 20px;/* align-items: center; */
+}
+
+/* Desktop Version */
+@media only screen and (min-device-width: 768px) {
+  /* Header */
+
+  .mobile-nav {
+    display: none;
+  }
+
+  .desktop-nav {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .flex-list {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+  }
+
+  .last-child {
+    padding: 0 20px 0 20px;
+    border: 4px solid #ec5242;
+  }
+
+  /* Headline Section */
+
+  #headline-section {
+    display: flex;
+    flex-direction: column;
+    background-image: url('../images/teacher-kids-blue.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 200px;
+    padding-left: 250px;
+  }
+
+  .intro-heading {
+    font-size: 55px;
+  }
+
+  #intro-text {
+    max-width: 700px;
+  }
+
+  .head-img {
+    display: none;
+  }
+
+  #date-location {
+    color: white;
+    font-size: 25px;
+  }
+
+  /* STATS SECTION */
+  #stats-grid {
+    grid-template-columns: repeat(5, auto);
+    width: 80%;
+  }
+
+  .stats-card {
+    display: grid;
+    text-align: center;
+  }
+
+  /* TEACHERS SECTION */
+  .teacher-container {
+    max-width: 500px;
+  }
 }
