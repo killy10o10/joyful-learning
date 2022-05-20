@@ -1,9 +1,5 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio Project
-
-
-
 ## Live Demo
 
 
@@ -36,8 +32,7 @@ Contributions, issues, and feature requests are welcome!
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-## Image Credits
-Photo by cottonbro from Pexels
+> Image Credits to. (istockphoto.com) 
 
 - Hat tip to anyone who's code/resource was used
 - Inspiration
