@@ -2,9 +2,6 @@
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background-color: #ff0081;
-  border-radius: 4px;
-  border: none;
   cursor: pointer;
   position: relative;
   -webkit-transition: -webkit-transform ease-in 0.1s, -webkit-box-shadow ease-in 0.25s;
