@@ -1,7 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 ## Live Demo
-
+[Live Demo Link](https://killy10o10.github.io/HTML-CSS-JavaScript-capstone-project/)
 
 > HTML/CSS & JavaScript capstone project.
 
