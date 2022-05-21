@@ -1,12 +1,19 @@
 //  ==CLOSE BUTTON FOR MENU===//
 const hamburger = document.getElementById('hamburger');
 const menu = document.querySelector('.desktop-nav');
+const menuItems = document.querySelector('.close-menu');
 
-hamburger.addEventListener('click', () => {
+function openMenu() {
   hamburger.classList.toggle('fa-xmark');
   menu.classList.toggle('show');
-});
+}
+function closeMenu() {
+  hamburger.classList.replace('fa-xmark', 'fa-bars');
+  menu.classList.replace('show', 'd-none');
+}
 
+hamburger.addEventListener('click', openMenu);
+menuItems.addEventListener('click', closeMenu);
 //  ===DYNAMIC TEACHER SECTION===//
 
 const teachers = [

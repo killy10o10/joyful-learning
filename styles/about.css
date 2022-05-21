@@ -26,6 +26,10 @@ header {
   top: 0;
 }
 
+img {
+  width: 100%;
+}
+
 .mobile-nav {
   padding: 20px;
 }
@@ -51,6 +55,10 @@ header {
   z-index: -1;
 }
 
+.nav-logo img {
+  width: 100px;
+}
+
 .desktop-nav-2 {
   display: none;
 }
@@ -60,10 +68,6 @@ h2,
 h3,
 h4 {
   font-family: 'COCOGOOSE', Georgia, serif;
-}
-
-img {
-  width: 100%;
 }
 
 .fa-solid {
@@ -246,17 +250,16 @@ img {
     justify-content: space-between;
     padding-right: 170px;
     padding-left: 170px;
-    height: 85px;
   }
 
   .nav-logo {
     display: inline;
-    width: 120px;
-    height: 120px;
-    background-image: url('../images/school-logo.png');
-    background-position: center;
-    background-size: contain;
-    margin-top: -15px;
+    height: 60px;
+  }
+
+  .nav-logo img {
+    height: 100%;
+    width: auto;
   }
 
   .flex-list {

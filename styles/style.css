@@ -27,6 +27,10 @@ header {
   z-index: 1;
 }
 
+img {
+  width: 100%;
+}
+
 .mobile-nav {
   padding: 20px;
 }
@@ -52,11 +56,15 @@ header {
   z-index: -1;
 }
 
-.nav-logo {
-  display: none;
+.nav-logo img {
+  width: 100px;
 }
 
 .desktop-nav-2 {
+  display: none;
+}
+
+.d-none {
   display: none;
 }
 
@@ -65,10 +73,6 @@ h2,
 h3,
 h4 {
   font-family: 'COCOGOOSE', Georgia, serif;
-}
-
-img {
-  width: 100%;
 }
 
 .fa-solid {
@@ -302,6 +306,7 @@ footer {
 
   .nav-logo img {
     height: 100%;
+    width: auto;
   }
 
   .flex-list {
