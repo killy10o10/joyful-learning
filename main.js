@@ -6,10 +6,13 @@ const menuItems = document.querySelector('.close-menu');
 function openMenu() {
   hamburger.classList.toggle('fa-xmark');
   menu.classList.toggle('show');
+  document.body.style.overflow = document.body.style.overflow === 'hidden' ? 'auto' : 'hidden';
 }
+
 function closeMenu() {
   hamburger.classList.replace('fa-xmark', 'fa-bars');
   menu.classList.replace('show', 'd-none');
+  document.body.style.overflow = document.body.style.overflow === 'hidden' ? 'auto' : 'hidden';
 }
 
 hamburger.addEventListener('click', openMenu);

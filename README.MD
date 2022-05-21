@@ -40,9 +40,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
+- Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07)
 - Hat tip to anyone who's code/resource was used
 - Image Credits: (https://www.istockphoto.com)
-- Cindy Shin: [@adgio07](https://www.behance.net/adagio07)
 - Microverse Community
 
 ## 📝 License

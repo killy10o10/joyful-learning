@@ -102,7 +102,7 @@ h4 {
 .intro-heading {
   display: flex;
   text-align: center;
-  background-image: linear-gradient(to bottom right, rgba(236, 82, 66, 1) 20%, rgba(236, 82, 66, 0.3) 50%), url('../images/schienceLab.jpg');
+  background-image: linear-gradient(to bottom right, rgba(236, 82, 66, 0.8) 40%, rgba(236, 82, 66, 0.5) 60%), url('../images/schienceLab.jpg');
   background-position: bottom;
   background-repeat: repeat;
   background-size: contain;
@@ -249,7 +249,7 @@ h4 {
     display: flex;
     justify-content: space-between;
     padding-right: 170px;
-    padding-left: 170px;
+    padding-left: 250px;
   }
 
   .nav-logo {
@@ -260,6 +260,10 @@ h4 {
   .nav-logo img {
     height: 100%;
     width: auto;
+  }
+
+  .close-menu * {
+    padding-right: 20px;
   }
 
   .flex-list {

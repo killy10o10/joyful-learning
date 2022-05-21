@@ -43,12 +43,12 @@ img {
   display: block;
   background: white;
   width: 100%;
+  height: 95vh;
   text-align: center;
   padding-top: 40px;
   padding-left: 20px;
   position: absolute;
   top: 0;
-  height: 90vh;
   box-shadow: 0 48px 48px rgb(37 47 137 / 8%);
   left: 0;
   border-radius: 0 0 50px 50px;
@@ -104,7 +104,7 @@ h4 {
 
 .intro-heading {
   font-size: 35px;
-  background-image: linear-gradient(to bottom right, rgba(236, 82, 66, 1) 20%, rgba(236, 82, 66, 0.3) 50%), url('../images/teacher-kids.jpg');
+  background-image: linear-gradient(to bottom right, rgba(236, 82, 66, 0.8) 40%, rgba(236, 82, 66, 0.5) 60%), url('../images/teacher-kids.jpg');
   background-repeat: repeat;
   background-size: contain;
   -webkit-background-clip: text;
@@ -156,6 +156,23 @@ h4 {
   align-items: center;
   color: white;
   gap: 20px;
+  transition: all 0.75s ease-in-out 0s;
+}
+
+.stats-card::before {
+  border-bottom: 1px solid #ec5242;
+  border-left: 1px solid #ec5242;
+  transform-origin: 0 100% 0;
+}
+
+.stats-card::after {
+  border-right: 1px solid #ec5242;
+  border-top: 1px solid #ec5242;
+  transform-origin: 100% 0 0;
+}
+
+.stats-card:hover {
+  outline: 1px solid #ec5242;
 }
 
 .stats-title {
@@ -296,7 +313,7 @@ footer {
     display: flex;
     justify-content: space-between;
     padding-right: 170px;
-    padding-left: 170px;
+    padding-left: 250px;
   }
 
   .nav-logo {
@@ -307,6 +324,10 @@ footer {
   .nav-logo img {
     height: 100%;
     width: auto;
+  }
+
+  .close-menu * {
+    padding-right: 20px;
   }
 
   .flex-list {
@@ -323,7 +344,6 @@ footer {
   }
 
   .last-child {
-    padding: 0 20px 0 20px;
     border: 4px solid #ec5242;
   }
 
