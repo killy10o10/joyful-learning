@@ -246,6 +246,7 @@ img {
     justify-content: space-between;
     padding-right: 170px;
     padding-left: 170px;
+    height: 85px;
   }
 
   .nav-logo {

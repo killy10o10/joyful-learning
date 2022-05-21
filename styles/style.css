@@ -52,6 +52,10 @@ header {
   z-index: -1;
 }
 
+.nav-logo {
+  display: none;
+}
+
 .desktop-nav-2 {
   display: none;
 }
@@ -292,12 +296,12 @@ footer {
   }
 
   .nav-logo {
-    width: 120px;
-    height: 120px;
-    background-image: url('../images/school-logo.png');
-    background-position: center;
-    background-size: contain;
-    margin-top: -15px;
+    display: inline;
+    height: 60px;
+  }
+
+  .nav-logo img {
+    height: 100%;
   }
 
   .flex-list {
@@ -353,7 +357,7 @@ footer {
   }
 
   #date-location {
-    /* color: white; */
+    color: white;
     font-size: 25px;
   }
 
