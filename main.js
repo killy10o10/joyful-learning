@@ -39,14 +39,14 @@ const teachers = [
   },
 
   {
-    photo: './images/kindergarten6.jpg',
+    photo: './images/kindergarten6.png',
     name: 'Favour Ngozi Eze',
     subject: 'Geography',
     description: 'Lorem ipsum dolor sit amet consectetur elit adipisicing . Quisquam quasi odit velit?',
   },
 
   {
-    photo: './images/kindergarten6.jpg',
+    photo: './images/kindergarten6.png',
     name: 'Favour Ngozi Eze',
     subject: 'Geography',
     description: 'Lorem ipsum dolor sit amet consectetur elit adipisicing . Quisquam quasi odit velit?',

@@ -5,12 +5,17 @@
   margin: 0;
   box-sizing: border-box;
   list-style: none;
+  text-decoration: none;
 }
 
 body {
   font-family: 'Lato', sans-serif;
   font-size: 16px;
   line-height: 1.6;
+}
+
+a {
+  color: inherit;
 }
 
 header {
@@ -283,6 +288,7 @@ footer {
     display: flex;
     justify-content: space-between;
     padding-right: 170px;
+    padding-left: 170px;
   }
 
   .nav-logo {
@@ -304,6 +310,7 @@ footer {
 
   .flex-list *:hover {
     cursor: pointer;
+    color: #ec5242;
   }
 
   .last-child {
@@ -337,7 +344,8 @@ footer {
   }
 
   #intro-text {
-    max-width: 700px;
+    max-width: 600px;
+    font-size: 24px;
   }
 
   .head-img {
@@ -345,11 +353,16 @@ footer {
   }
 
   #date-location {
-    color: white;
+    /* color: white; */
     font-size: 25px;
   }
 
   /* STATS SECTION */
+  #stats {
+    margin-top: 30px;
+    padding: 100px;
+  }
+
   #stats-grid {
     grid-template-columns: repeat(5, auto);
     width: 80%;
@@ -367,5 +380,13 @@ footer {
 
   .teacher-container {
     max-width: 500px;
+  }
+
+  #view-more {
+    display: none;
+  }
+
+  #sponsors {
+    padding: 100px;
   }
 }
