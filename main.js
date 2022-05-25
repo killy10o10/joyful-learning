@@ -12,7 +12,7 @@ function openMenu() {
 function closeMenu() {
   hamburger.classList.replace('fa-xmark', 'fa-bars');
   menu.classList.replace('show', 'd-none');
-  document.body.style.overflow = document.body.style.overflow === 'hidden' ? 'auto' : 'hidden';
+  document.body.style.overflow = document.body.style.overflow === 'hidden' ? 'auto' : 'auto';
 }
 
 hamburger.addEventListener('click', openMenu);

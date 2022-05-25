@@ -54,6 +54,7 @@ img {
   border-radius: 0 0 50px 50px;
   font-size: 20px;
   z-index: -1;
+  transition: all 0.5s;
 }
 
 .nav-logo img {
@@ -191,6 +192,11 @@ h4 {
   font-weight: bold;
   border: none;
   border-radius: 4px;
+  transition: all 0.5s;
+}
+
+#join-button:hover {
+  transform: translateY(-4px);
 }
 
 /* Teacher Section */
@@ -254,7 +260,7 @@ h4 {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 200px;
+  width: 100%;
   border: 1px solid #d3d3d3;
   background-color: #fafafa;
   border-radius: 4px;
@@ -273,8 +279,6 @@ h4 {
 }
 
 #sponsors-container {
-  /* display:grid;
-  grid-template-columns: repeat(3, auto); */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -298,7 +302,7 @@ h4 {
 footer {
   display: flex;
   justify-content: center;
-  padding: 20px;/* align-items: center; */
+  padding: 20px;
 }
 
 /* Desktop Version */
