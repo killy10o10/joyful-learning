@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+a {
+  color: inherit;
+}
+
+header {
+  background-color: white;
+  box-shadow: 0 3px 10px 0 #4b4b4b73;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+img {
+  width: 100%;
+}
+
+.mobile-nav {
+  padding: 20px;
+}
+
+.desktop-nav {
+  display: none;
+}
+
+.desktop-nav.show {
+  display: block;
+  background: white;
+  width: 100%;
+  text-align: center;
+  padding-top: 40px;
+  padding-left: 20px;
+  position: absolute;
+  top: 0;
+  height: 90vh;
+  box-shadow: 0 48px 48px rgb(37 47 137 / 8%);
+  left: 0;
+  border-radius: 0 0 50px 50px;
+  font-size: 20px;
+  z-index: -1;
+}
+
+.nav-logo img {
+  width: 100px;
+}
+
+.desktop-nav-2 {
+  display: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'COCOGOOSE', Georgia, serif;
+}
+
+.fa-solid {
+  font-size: 30px;
+}
+
+.orange {
+  color: #ec5242;
+}
+
+/* HEADLINE SECTION */
+
+#headline-section {
+  padding: 100px 20px 20px;
+}
+
+#headline-section::after {
+  content: "";
+  background-image: url("../images/our-staff2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.8;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.intro-heading {
+  display: flex;
+  text-align: center;
+  background-image: linear-gradient(to bottom right, rgba(236, 82, 66, 0.8) 40%, rgba(236, 82, 66, 0.5) 60%), url('../images/schienceLab.jpg');
+  background-position: bottom;
+  background-repeat: repeat;
+  background-size: contain;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#intro-text {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  color: #272a31;
+  background-color: #fafafab6;
+  border: 2px solid #eeee;
+  border-radius: 2px;
+}
+
+#message-email {
+  padding-top: 20px;
+  font-size: 17px;
+  color: white;
+  text-align: center;
+}
+
+/* ABOUT SCHOOL */
+#about-school {
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+#about-heading {
+  color: #ec5242;
+  margin-bottom: 30px;
+  border-bottom: 3px solid #565656;
+}
+
+.about-intro {
+  text-align: center;
+  color: #565656;
+}
+
+.logo {
+  border: 1px solid #eee;
+  width: 80%;
+  margin-top: 50px;
+}
+
+/* Standout Section */
+#standout-section {
+  padding: 50px 20px 50px 20px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('../images/our-staff.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.section-intro {
+  margin-bottom: auto;
+  margin-top: auto;
+  color: white;
+}
+
+/* Testimonials */
+#testimonials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.orange-hr {
+  width: 30px;
+  border: none;
+  height: 3px;
+  background-color: #ec5242;
+  border-radius: 4px;
+}
+
+#facts-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: white;
+  margin-top: 30px;
+  gap: 30px;
+}
+
+.fact-card {
+  min-width: 340px;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+}
+
+#fact-one {
+  background-image: linear-gradient(to bottom, rgba(236, 82, 66, 0.8) 20%, rgba(236, 82, 66, 0.8) 70%), url('../images/kindergarten4.jpg');
+}
+
+#fact-two {
+  background-image: linear-gradient(to bottom, rgba(236, 82, 66, 0.8) 20%, rgba(236, 82, 66, 0.8) 70%), url('../images/kindergarten3.jpg');
+}
+
+/* Footer */
+#footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #272a31;
+  color: #8d8d8d;
+}
+
+#outro {
+  text-align: center;
+  color: white;
+  font-size: 14px;
+}
+
+/* Desktop Screen */
+@media only screen and (min-device-width: 768px) {
+  /* Header */
+  .mobile-nav {
+    display: none;
+  }
+
+  .desktop-nav {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 170px;
+    padding-left: 250px;
+  }
+
+  .nav-logo {
+    display: inline;
+    height: 60px;
+  }
+
+  .nav-logo img {
+    height: 100%;
+    width: auto;
+  }
+
+  .close-menu * {
+    padding-right: 20px;
+  }
+
+  .flex-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .flex-list *:hover {
+    cursor: pointer;
+    color: #ec5242;
+  }
+
+  .last-child {
+    padding: 0 20px 0 20px;
+    border: 4px solid #ec5242;
+  }
+
+  .desktop-nav-2 {
+    display: flex;
+    justify-content: end;
+    background-color: #3e3e3e;
+    color: white;
+    padding-right: 170px;
+  }
+
+  /* Headline */
+  #headline-section {
+    display: flex;
+    flex-direction: column;
+    background-image: url('../images/teacher-kids-science.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    padding-top: 200px;
+  }
+
+  .intro-heading {
+    font-size: 55px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #intro-text {
+    max-width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 24px;
+    padding: 20px;
+  }
+
+  #message-email {
+    font-size: 24px;
+  }
+
+  /* ABOUT SECTION */
+
+  #about-heading {
+    font-size: 35px;
+  }
+
+  #testimonials {
+    padding: 60px;
+  }
+
+  .testimonials-heading {
+    font-size: 35px;
+  }
+
+  .about-intro {
+    max-width: 40%;
+    font-size: 24px;
+  }
+
+  .logo {
+    max-width: 25%;
+  }
+
+  #standout-section {
+    display: none;
+  }
+
+  #facts-container {
+    flex-direction: row;
+  }
+
+  .fact-card {
+    width: 420px;
+    height: 320px;
+  }
+
+  /* FOOTER */
+
+  .foot-logo {
+    max-width: 20%;
+  }
+
+  #outro {
+    max-width: 30%;
+  }
+}
