@@ -1,7 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 ## Live Demo
-[Live Demo Link](https://killy10o10.github.io/HTML-CSS-JavaScript-capstone-project/)
+[Live Demo Link](https://killy10o10-html-css-capstone.netlify.app/)
 
 ## Video Presentation
 [video presentation link](https://www.loom.com/share/f2970e1a4e854e41b80d8ba64a92be63)
